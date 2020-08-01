@@ -1,0 +1,22 @@
+p {
+    /*decoração base*/
+    background-color: var(--main);
+    text-align: center;
+    color: #000000;
+
+    /*medidas padrão de css*/
+    font-size: 2rem !important;
+}
+div {
+    background-color: var(--main);
+    padding: 32px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    
+    /*medidas padrão de css*/
+    font-size: 3rem;
+    width: 60vw;
+    height: 10vh;
+}
