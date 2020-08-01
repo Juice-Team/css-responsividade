@@ -1,0 +1,14 @@
+/*esse é o mais utilizado
+funciona como se fosse um if...
+se a largura da tela for menor que 900px
+ele muda os atributos que voce selecionar
+
+é importante ele estar no fim do arquivo
+*/
+@media (max-width: 900px) {
+    .panels {
+        flex-direction: column;
+        margin-left: 50%;
+        transform: translateX(-50%); /*isso faz o conteudo ficar ao centro, cheque a pasta 'percent' para mais detalhes*/
+    }
+}
